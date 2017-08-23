@@ -1,0 +1,18 @@
+package com.expertzlab.spring.annotation.conf.example;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class SpringDemo {
+ 
+    public static void main(String a[]){
+ 
+        @SuppressWarnings("resource")
+        ApplicationContext context = 
+                new AnnotationConfigApplicationContext(MyAppConfig.class);
+        MyJdbcService jdbc = (MyJdbcService) context.getBean("jdbcService");
+        jdbc.createJdbcConnection();
+        MyBusinessService busServ = (MyBusinessService) context.getBean("bussService");
+        busServ.runMyBusiness();
+    }
+}
