@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.springExample.SpringBootEXample.SpringBootEXampleApplicationTests" time="0.022" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/liya_john/sample/SpringBootEXample"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/liya_john/sample/SpringBootEXample"/>
+    <property name="java.runtime.version" value="1.8.0_131-8u131-b11-2ubuntu1.16.04.3-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/home/liya_john/eclipse-workspace/servlet_pgms/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf4509179292626655801.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="4.10.0-33-generic"/>
+    <property name="user.home" value="/home/liya_john"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="liya_john"/>
+    <property name="java.class.path" value="/home/liya_john/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.8.0.20170516-2042/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/home/liya_john/sample/SpringBootEXample/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="initializationError" classname="com.springExample.SpringBootEXample.SpringBootEXampleApplicationTests" time="0.022">
+    <error message="Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test
+	at org.springframework.util.Assert.state(Assert.java:70)
+	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses(SpringBootTestContextBootstrapper.java:202)
+	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.processMergedContextConfiguration(SpringBootTestContextBootstrapper.java:137)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildMergedContextConfiguration(AbstractTestContextBootstrapper.java:409)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildDefaultMergedContextConfiguration(AbstractTestContextBootstrapper.java:323)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildMergedContextConfiguration(AbstractTestContextBootstrapper.java:277)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildTestContext(AbstractTestContextBootstrapper.java:112)
+	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.buildTestContext(SpringBootTestContextBootstrapper.java:82)
+	at org.springframework.test.context.TestContextManager.<init>(TestContextManager.java:120)
+	at org.springframework.test.context.TestContextManager.<init>(TestContextManager.java:105)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTestContextManager(SpringJUnit4ClassRunner.java:152)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.<init>(SpringJUnit4ClassRunner.java:143)
+	at org.springframework.test.context.junit4.SpringRunner.<init>(SpringRunner.java:49)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:104)
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:33)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]></error>
+    <system-out><![CDATA[22:43:05.423 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.springExample.SpringBootEXample.SpringBootEXampleApplicationTests]
+22:43:05.428 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+22:43:05.449 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+22:43:05.475 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.springExample.SpringBootEXample.SpringBootEXampleApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+22:43:05.514 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.springExample.SpringBootEXample.SpringBootEXampleApplicationTests], using SpringBootContextLoader
+22:43:05.531 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.springExample.SpringBootEXample.SpringBootEXampleApplicationTests]: class path resource [com/springExample/SpringBootEXample/SpringBootEXampleApplicationTests-context.xml] does not exist
+22:43:05.531 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.springExample.SpringBootEXample.SpringBootEXampleApplicationTests]: class path resource [com/springExample/SpringBootEXample/SpringBootEXampleApplicationTestsContext.groovy] does not exist
+22:43:05.531 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.springExample.SpringBootEXample.SpringBootEXampleApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+22:43:05.532 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.springExample.SpringBootEXample.SpringBootEXampleApplicationTests]: SpringBootEXampleApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22:43:05.582 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.springExample.SpringBootEXample.SpringBootEXampleApplicationTests]
+22:43:05.593 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+22:43:05.594 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+22:43:05.595 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+22:43:05.606 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/springExample/SpringBootEXample/] to resources [URL [file:/home/liya_john/sample/SpringBootEXample/target/test-classes/com/springExample/SpringBootEXample/], URL [file:/home/liya_john/sample/SpringBootEXample/target/classes/com/springExample/SpringBootEXample/]]
+22:43:05.606 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/home/liya_john/sample/SpringBootEXample/target/test-classes/com/springExample/SpringBootEXample]
+22:43:05.607 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/home/liya_john/sample/SpringBootEXample/target/test-classes/com/springExample/SpringBootEXample] for files matching pattern [/home/liya_john/sample/SpringBootEXample/target/test-classes/com/springExample/SpringBootEXample/*.class]
+22:43:05.610 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/home/liya_john/sample/SpringBootEXample/target/classes/com/springExample/SpringBootEXample]
+22:43:05.610 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/home/liya_john/sample/SpringBootEXample/target/classes/com/springExample/SpringBootEXample] for files matching pattern [/home/liya_john/sample/SpringBootEXample/target/classes/com/springExample/SpringBootEXample/*.class]
+22:43:05.610 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/springExample/SpringBootEXample/*.class] to resources [file [/home/liya_john/sample/SpringBootEXample/target/test-classes/com/springExample/SpringBootEXample/SpringBootEXampleApplicationTests.class]]
+22:43:05.641 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/springExample/] to resources [URL [file:/home/liya_john/sample/SpringBootEXample/target/test-classes/com/springExample/], URL [file:/home/liya_john/sample/SpringBootEXample/target/classes/com/springExample/]]
+22:43:05.642 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/home/liya_john/sample/SpringBootEXample/target/test-classes/com/springExample]
+22:43:05.642 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/home/liya_john/sample/SpringBootEXample/target/test-classes/com/springExample] for files matching pattern [/home/liya_john/sample/SpringBootEXample/target/test-classes/com/springExample/*.class]
+22:43:05.642 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/home/liya_john/sample/SpringBootEXample/target/classes/com/springExample]
+22:43:05.643 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/home/liya_john/sample/SpringBootEXample/target/classes/com/springExample] for files matching pattern [/home/liya_john/sample/SpringBootEXample/target/classes/com/springExample/*.class]
+22:43:05.643 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/springExample/*.class] to resources []
+22:43:05.645 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/] to resources [URL [file:/home/liya_john/sample/SpringBootEXample/target/test-classes/com/], URL [file:/home/liya_john/sample/SpringBootEXample/target/classes/com/], URL [jar:file:/home/liya_john/.m2/repository/com/fasterxml/classmate/1.3.3/classmate-1.3.3.jar!/com/], URL [jar:file:/home/liya_john/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9.jar!/com/], URL [jar:file:/home/liya_john/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar!/com/], URL [jar:file:/home/liya_john/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9.jar!/com/], URL [jar:file:/home/liya_john/.m2/repository/mysql/mysql-connector-java/5.1.43/mysql-connector-java-5.1.43.jar!/com/], URL [jar:file:/home/liya_john/.m2/repository/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar!/com/]]
+22:43:05.645 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/home/liya_john/sample/SpringBootEXample/target/test-classes/com]
+22:43:05.645 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/home/liya_john/sample/SpringBootEXample/target/test-classes/com] for files matching pattern [/home/liya_john/sample/SpringBootEXample/target/test-classes/com/*.class]
+22:43:05.646 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/home/liya_john/sample/SpringBootEXample/target/classes/com]
+22:43:05.646 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/home/liya_john/sample/SpringBootEXample/target/classes/com] for files matching pattern [/home/liya_john/sample/SpringBootEXample/target/classes/com/*.class]
+22:43:05.646 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/home/liya_john/.m2/repository/com/fasterxml/classmate/1.3.3/classmate-1.3.3.jar]
+22:43:05.648 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/home/liya_john/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9.jar]
+22:43:05.660 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/home/liya_john/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar]
+22:43:05.662 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/home/liya_john/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9.jar]
+22:43:05.664 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/home/liya_john/.m2/repository/mysql/mysql-connector-java/5.1.43/mysql-connector-java-5.1.43.jar]
+22:43:05.679 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/home/liya_john/.m2/repository/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar]
+22:43:05.680 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/*.class] to resources []
+22:43:05.689 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.springExample.SpringBootEXample.SpringBootEXampleApplicationTests]
+22:43:05.690 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+22:43:05.691 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+22:43:05.692 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.springExample.SpringBootEXample.SpringBootEXampleApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+22:43:05.693 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.springExample.SpringBootEXample.SpringBootEXampleApplicationTests], using SpringBootContextLoader
+22:43:05.693 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.springExample.SpringBootEXample.SpringBootEXampleApplicationTests]: class path resource [com/springExample/SpringBootEXample/SpringBootEXampleApplicationTests-context.xml] does not exist
+22:43:05.694 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.springExample.SpringBootEXample.SpringBootEXampleApplicationTests]: class path resource [com/springExample/SpringBootEXample/SpringBootEXampleApplicationTestsContext.groovy] does not exist
+22:43:05.694 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.springExample.SpringBootEXample.SpringBootEXampleApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+22:43:05.694 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.springExample.SpringBootEXample.SpringBootEXampleApplicationTests]: SpringBootEXampleApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22:43:05.702 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.springExample.SpringBootEXample.SpringBootEXampleApplicationTests]
+22:43:05.703 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+22:43:05.703 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+22:43:05.703 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+22:43:05.704 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/springExample/SpringBootEXample/] to resources [URL [file:/home/liya_john/sample/SpringBootEXample/target/test-classes/com/springExample/SpringBootEXample/], URL [file:/home/liya_john/sample/SpringBootEXample/target/classes/com/springExample/SpringBootEXample/]]
+22:43:05.704 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/home/liya_john/sample/SpringBootEXample/target/test-classes/com/springExample/SpringBootEXample]
+22:43:05.704 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/home/liya_john/sample/SpringBootEXample/target/test-classes/com/springExample/SpringBootEXample] for files matching pattern [/home/liya_john/sample/SpringBootEXample/target/test-classes/com/springExample/SpringBootEXample/*.class]
+22:43:05.706 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/home/liya_john/sample/SpringBootEXample/target/classes/com/springExample/SpringBootEXample]
+22:43:05.706 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/home/liya_john/sample/SpringBootEXample/target/classes/com/springExample/SpringBootEXample] for files matching pattern [/home/liya_john/sample/SpringBootEXample/target/classes/com/springExample/SpringBootEXample/*.class]
+22:43:05.706 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/springExample/SpringBootEXample/*.class] to resources [file [/home/liya_john/sample/SpringBootEXample/target/test-classes/com/springExample/SpringBootEXample/SpringBootEXampleApplicationTests.class]]
+22:43:05.707 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/springExample/] to resources [URL [file:/home/liya_john/sample/SpringBootEXample/target/test-classes/com/springExample/], URL [file:/home/liya_john/sample/SpringBootEXample/target/classes/com/springExample/]]
+22:43:05.708 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/home/liya_john/sample/SpringBootEXample/target/test-classes/com/springExample]
+22:43:05.708 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/home/liya_john/sample/SpringBootEXample/target/test-classes/com/springExample] for files matching pattern [/home/liya_john/sample/SpringBootEXample/target/test-classes/com/springExample/*.class]
+22:43:05.708 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/home/liya_john/sample/SpringBootEXample/target/classes/com/springExample]
+22:43:05.709 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/home/liya_john/sample/SpringBootEXample/target/classes/com/springExample] for files matching pattern [/home/liya_john/sample/SpringBootEXample/target/classes/com/springExample/*.class]
+22:43:05.709 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/springExample/*.class] to resources []
+22:43:05.710 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/] to resources [URL [file:/home/liya_john/sample/SpringBootEXample/target/test-classes/com/], URL [file:/home/liya_john/sample/SpringBootEXample/target/classes/com/], URL [jar:file:/home/liya_john/.m2/repository/com/fasterxml/classmate/1.3.3/classmate-1.3.3.jar!/com/], URL [jar:file:/home/liya_john/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9.jar!/com/], URL [jar:file:/home/liya_john/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar!/com/], URL [jar:file:/home/liya_john/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9.jar!/com/], URL [jar:file:/home/liya_john/.m2/repository/mysql/mysql-connector-java/5.1.43/mysql-connector-java-5.1.43.jar!/com/], URL [jar:file:/home/liya_john/.m2/repository/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar!/com/]]
+22:43:05.711 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/home/liya_john/sample/SpringBootEXample/target/test-classes/com]
+22:43:05.711 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/home/liya_john/sample/SpringBootEXample/target/test-classes/com] for files matching pattern [/home/liya_john/sample/SpringBootEXample/target/test-classes/com/*.class]
+22:43:05.711 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/home/liya_john/sample/SpringBootEXample/target/classes/com]
+22:43:05.712 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/home/liya_john/sample/SpringBootEXample/target/classes/com] for files matching pattern [/home/liya_john/sample/SpringBootEXample/target/classes/com/*.class]
+22:43:05.712 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/home/liya_john/.m2/repository/com/fasterxml/classmate/1.3.3/classmate-1.3.3.jar]
+22:43:05.713 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/home/liya_john/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9.jar]
+22:43:05.719 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/home/liya_john/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar]
+22:43:05.721 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/home/liya_john/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9.jar]
+22:43:05.722 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/home/liya_john/.m2/repository/mysql/mysql-connector-java/5.1.43/mysql-connector-java-5.1.43.jar]
+22:43:05.725 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/home/liya_john/.m2/repository/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar]
+22:43:05.727 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/*.class] to resources []
+]]></system-out>
+  </testcase>
+</testsuite>

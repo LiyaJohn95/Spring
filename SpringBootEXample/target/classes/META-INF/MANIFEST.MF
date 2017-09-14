@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: SpringBootEXample
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: liya_john
+Implementation-Vendor-Id: com.springExample
+Build-Jdk: 1.8.0_131
+Implementation-URL: http://projects.spring.io/spring-boot/SpringBootEX
+ ample/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
